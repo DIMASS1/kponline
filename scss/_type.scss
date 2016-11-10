@@ -1,0 +1,200 @@
+// All type customizations go here
+
+// Font Families used.
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-sans-serif: 'Open Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+
+
+
+// custom styles
+
+.pagetitle h1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 3em;
+}
+
+
+h1.days {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	border-bottom: 0.2em solid $secondary-color;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+h2.movies {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	border-bottom: 0.2em solid $secondary-color;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+h2.days {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color: $secondary-color;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+h2.clip-of-the-week {
+	text-transform: uppercase;
+	color: $smoke;
+
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+
+}
+
+h4.clip-of-the-week {
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	color: $smoke;
+}
+
+h4.clip-of-the-week a {
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	color: $smoke;
+}
+
+article.movie p strong {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+footer {
+	padding: 2em 0;
+	color: #999;
+	border-top: 1px solid #ccc;
+}
+
+footer p {
+	font-size: 0.8em;
+}
+
+.sub-nav {
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+.full-width {
+  max-width: 1400px;
+}
+
+.custom-panel {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg:orange,
+    // Sets the panel padding amount. Default: $panel-padding
+    $padding:20px,
+    // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+    $adjust:true
+  );
+}
+
+.day-lists ul {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+@media #{$small-only} {
+	.day-lists ul {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
+
+// footer CSS
+
+.footer {
+  background-color: $primary-color;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+  i {
+    font-size: 100px;
+  }
+}
+
+.footer {
+  h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: 300;
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+.footer {
+  .columns:nth-child(n+2) {
+     border-left: 1px solid scale-color(#fff, $lightness: -30%);
+     min-height: 280px;
+  }
+ }
+}
+
+.footer-links {
+  list-style-type: none;
+  a {
+    color: #fff;
+    font-weight: 300;
+    font-size: .8rem;
+  }
+  li {
+    margin-top: .5rem;
+  }
+}
+
+
+// Targeted styles
+
+#clip-of-the-week {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+
+section.happy-hours div p strong {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}

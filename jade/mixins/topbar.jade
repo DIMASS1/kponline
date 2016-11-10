@@ -1,0 +1,851 @@
+mixin topbar(pageTitle)
+	// add visibility classes for the top bar here
+	nav.top-bar.show-for-medium-up(data-topbar)
+		ul.title-area
+			li.name
+				<a href="index.html"><img src="assets/img/logos/k-pasa-small-67-45.png" height="45" width="67" alt="K-pasa"></a>
+			li.toggle-topbar.menu-icon
+				<a href="#"><span>Menu</span></a>
+		section.top-bar-section
+			ul.right
+				case pageTitle
+					when pageTitle = "Films"
+						li.has-dropdown.active <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Art & Culture"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li.active <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Outdoors"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li.active <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Aqua"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li.active <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Beach Life"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li.active <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Diving"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li.active <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Boating"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li.active <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Sports"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li.active <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Upcoming"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li.active <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Ship Ahoy"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li.active <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Kids Corner"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown.active <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li.active <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Thursday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li.active <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Friday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li.active <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Saturday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li.active <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Sunday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li.active <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Monday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li.active <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Tuesday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li.active <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Dining & Entertainment Wednesday"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown.active <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li.active <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					when pageTitle = "Happy Hours"
+						li.has-dropdown <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown.active <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+					default
+						li.has-dropdown.active <a href="index.html">Films</a>
+							ul.dropdown
+								li <a href="index.html#the-movies-section">The Movies</a>
+								li <a href="index.html#the-cinemas-section">The Cinemas</a>
+
+						li.has-dropdown <a href="#">Activities</a>
+							ul.dropdown
+								li
+									label Fun in the sun ... or under the moon.
+								li <a href="activities-artnculture.html">Art &amp; Culture</a></li>
+								li <a href="activities-outdoors.html">Outdoors</a></li>
+								li <a href="activities-aqua.html">Aqua</a></li>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li.has-dropdown <a href="#">Dining &amp; Entertainment</a>
+							ul.dropdown
+								li
+									label Going out? Check these out!
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li.has-dropdown <a href="#">Happy Hours</a>
+							ul.dropdown
+								li
+									label Cheap drinks!
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>

@@ -1,0 +1,70 @@
+//- single movie article mixin. panelid is a single unique letter venue = the-movies, the-cinemas
+mixin movie-left-image(title, venue, rating, link_id, panel_id, trailer_id, dimension)
+	// begin single movie
+	article.small-12.medium-12.large-6.columns.movie
+		h2.movies
+			strong= title
+		.medium-4.large-12.columns
+			.medium-12
+				img.displayed
+				// add movie posters here
+				.small-12.medium-12.logo-parent
+					case venue
+						when "The Movies"
+							img.logo(src="assets/img/logos/the-movies-logo-40px.png" alt="The Movies" height="40" width="53")
+						when "Movies"
+							img.logo(src="assets/img/logos/the-movies-logo-40px.png" alt="The Movies" height="40" width="53")
+						when "The Cinemas"
+							img.logo(src="assets/img/logos/the-cinemas-logo-40px.png" alt="The Cinemas" height="40" width="85")
+						when "Cinemas"
+							img.logo(src="assets/img/logos/the-cinemas-logo-40px.png" alt="The Cinemas" height="40" width="85")
+						when "Cinemark"
+							img.logo(src="assets/img/logos/cinemark-logo-40px.png" height="40" width="319" alt="Cinemark Curaçao")
+						when "Sambil"
+							img.logo(src="assets/img/logos/cinemark-logo-40px.png" height="40" width="319" alt="Cinemark Curaçao")
+						default
+							// choose a venue
+					case rating
+						when "PG-13"
+							img.logo(src="assets/img/movie-ratings/mpaa-pg-13-rating-40px.jpg" alt="Parents Strongly Cautioned" height="40" width="100")
+						when "PG13"
+							img.logo(src="assets/img/movie-ratings/mpaa-pg-13-rating-40px.jpg" alt="Parents Strongly Cautioned" height="40" width="100")
+						when "G"
+							img.logo(src="assets/img/movie-ratings/mpaa-g-rating-40px.jpg" alt="General Audiences" height="40" width="60")
+						when "R"
+							img.logo(src="assets/img/movie-ratings/mpaa-r-rating-40px.jpg" alt="Restricted Audiences" height="40" width="41")
+						when "PG"
+							img.logo(src="assets/img/movie-ratings/mpaa-pg-rating-40px.jpg" alt="Parental Guidance" height="40" width="76")
+						when "NC-17"
+							img.logo(src="assets/img/movie-ratings/mpaa-nc-17-40px.jpg" alt="No Children 17 and Under Admitted" height="40" width="87")
+						when "AL"
+							img.logo(src="assets/img/movie-ratings/kijkwijzer-al.png" alt="Kijkwijzer: ALLE LEEFTIJDEN. Mediaproductie bevat geen schadelijke elementen." height="40" width="40")
+						default
+							// choose a rating
+					case dimension
+						when "3D"
+							img.logo(src="assets/img/misc-icons/3D-Icon-40px.png" alt="Shown in 3D" height="40" width="40")
+						when "4D"
+							img.logo(src="assets/img/misc-icons/4D-Icon-40px.png" alt="Shown in 4D" height="40" width="40")
+						default
+							//not a 3d showing
+		.medium-8.large-12.columns
+			ul.accordion(data-accordion)
+				li.accordion-navigation
+					a(href=link_id+1)
+						<h3>Playing Times</h3></a>
+					.content.active(id="#{panel_id}1")
+						p Put playing times here. HTML Only. Don't forget the strong tags!
+				li.accordion-navigation
+					a(href=link_id+2)
+						<h3>Additional Information</h3></a>
+					.content(id="#{panel_id}2")
+						p Paste content here. HTML Only. Don't forget the strong tags!
+				li.accordion-navigation
+					a(href=link_id+3)
+						<h3>Trailer</h3></a>
+					.content(id="#{panel_id}3")
+						.flex-video
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/#{trailer_id}" allowfullscreen></iframe>
+	// end single movie
+//- double movie article mixin

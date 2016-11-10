@@ -1,0 +1,27 @@
+				//stay in the contained grid
+				// page header w/ logo k-pasa 
+				header.contain-to-grid.small-6.small-centered.callout.row.full-width
+					h1.panel.text-center
+						strong Welcome to <img src="assets/img/logos/logo-k-pasa-facebook-150.png" height="150" width="222">
+					h2.panel.text-center Weekly Dining &amp; Entertainment Guide Curaçao
+					div.small-12.medium-12.large-12.label
+						h2.clip-of-the-week Clip of the Week:
+						h4.clip-of-the-week <a href="dining-entertainment-friday.html#clip-of-the-week">Project X Cura&#231;ao ft. Maori, Thyaz, Nick D. &amp; more @ Kokomo</a>
+				// end page header
+				// begin actual content
+				// the movies
+				section#the-movies-section.bottom-space
+					.small-12.medium-12.large-12.callout.panel
+						h3.text-center Now playing at
+
+				// end actual content
+
+
+		// more scripts
+		script(src="bower_components/jquery/dist/jquery.min.js")
+		script(src="bower_components/fastclick/lib/fastclick.js")
+		script(src="bower_components/foundation/js/foundation.min.js")
+		script(src="js/app.js")
+		script $(document).foundation();
+		script $(document).foundation('interchange', 'reflow');
+		script(src="assets/scripts/offcanvas.js")

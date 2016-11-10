@@ -1,0 +1,156 @@
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.logo {
+/*	margin: auto; */
+
+}
+
+.logo-parent { 
+	
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-justify-content: center;
+	-ms-flex-pack: center; 
+	justify-content: center;
+	max-height: auto;
+
+/* flex direction */
+	-webkit-box-orient: horizontal; 
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+ 
+}
+
+
+.logo {
+	padding-bottom: 1em;
+	margin-top: -3.5em;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	margin-bottom: 1em;
+	height: 56px; /* 	height: 56px; /* Fucking chrome (& opera) needs its specific rule */
+
+}
+
+@media #{$medium-only} { 
+	.logo {
+	margin-top: 0.2em;
+	}
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { .logo {
+} }
+
+
+/*
+ div.logo {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+    padding-bottom: 1em;
+
+}
+*/
+
+/*  the movies & the cinemas logos under the movies themselves */
+
+
+/* non flexbox layout. It works.
+
+@media #{$small-only} {
+	div.logo 	{   
+	margin: auto; 
+	padding-left: 5%;
+    padding-right: 5%;
+/*  margin: 0 auto; */
+/*      padding-bottom: 1em;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	}
+		.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+		}
+}	
+
+@media #{$medium-only} {
+	div.logo 	{   
+    margin: auto; 
+/*  padding-left: 9%;
+    padding-right: 9%;
+	margin: 0 auto; */
+ /*     padding-bottom: 1em;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	}
+
+	img.logo {
+	max-width: 40%;
+    padding-bottom: 1em;
+	}
+
+		.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+		}
+}	
+
+@media #{$large-up} { 
+	div.logo 	{   
+    margin: auto; 
+	padding-left: 20%;
+    padding-right: 20%;
+/*  margin: 0 auto; */
+ /*     padding-bottom: 1em;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+		}
+
+	.stretch {
+    width: 50%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+		}
+	}
+
+
+*/
+
+
+/* 
+div.icon-movies {
+	height: 40px;
+  	background-image: url(assets/img/logos/movieslogocolor-133x100.gif);
+	background-size: 40px;
+}
+
+div.icon-cinemas {
+	height: 40px;
+  	background-image: url(assets/img/logos/the-cinemas-logo-212x100.gif);
+	background-size: 40px;
+}
+
+div.icon-3d {
+	height: 40px;
+	background-image: url(assets/img/misc-icons/3D-Icon.png);
+	background-size: 40px;
+}
+
+*/

@@ -1,0 +1,13 @@
+/* humanstxt.org */
+/* www.k-pasa.com */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal, Foundation, Modernizr
+  Software: Coda, Textmate, Git, Atom
+
+/* TEAM */
+  David Felix, Head Honcho
+  Site: luxor.me, davidfelix.me
+  Twitter: @dcfelix
+  Location: Willemstad, Curaçao

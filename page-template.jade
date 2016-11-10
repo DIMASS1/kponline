@@ -1,0 +1,153 @@
+doctype html
+html(class="no-js" lang="en")
+	//includes
+	include jade/mixins/meta
+	include jade/mixins/footer
+	include jade/mixins/topbar
+	include jade/mixins/magellan
+	include jade/mixins/clipoftheweek
+	include jade/mixins/layout
+
+	//- Page titles should be "Art & Culture", "Dining & Entertainment Friday", "Kids Corner", "Films", etc. CASE AND SPACE SENSITIVE!
+	//- Art & Culture
+	//- Outdoors
+	//- Aqua
+	//- Beach Life
+	//- Diving
+	//- Boating
+	//- Sports
+	//- Upcoming
+	//- Ship Ahoy
+	//- Kids Corner
+	//- Happy Hours
+	//- Dining & Entertainment Thursday
+	//- Dining & Entertainment Friday
+	//- Dining & Entertainment Saturday
+	//- Dining & Entertainment Sunday
+	//- Dining & Entertainment Monday
+	//- Dining & Entertainment Tuesday
+	//- Dining & Entertainment Wednesday
+	//- Films
+	- var pageTitle = "Films";
+
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		meta(name="robots" content="index, follow")
+		meta(name="robots" content="index,follow")
+		+creator
+		+description(pageTitle)
+		+keywords(pageTitle)
+		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400%7CRoboto+Slab%7CRoboto:700' rel='stylesheet' type='text/css')
+		link(href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet")
+		link(rel="stylesheet" href="css/app.css")
+		script(src="bower_components/modernizr/modernizr.js")
+		title K-pasa Curaçao this week: #{pageTitle}
+
+	//begin body content
+	body
+		// off canvas nav. this has to finish all the way below the page, right above the scripts
+		div.off-canvas-wrap#top(data-offcanvas data-magellan-destination="top")
+			// off canvas nav inner wrap. this has to finish all the way below the page, right above the scripts
+			div.inner-wrap
+				// actual off canvas menu
+				nav.tab-bar.hide-for-medium-up
+					section.left-small
+						a.left-off-canvas-toggle.menu-icon
+							span
+					section.middle.tab-bar-section
+						// change this h1 with an img of k-pasa logo if needed
+						h1.title K-pasa
+				aside.left-off-canvas-menu
+					ul.off-canvas-list
+						li
+							label Now Playing
+						li <a href="index.html#the-movies-section">The Movies</a>
+						li <a href="index.html#the-cinemas-section">The Cinemas</a>
+						li
+							label Dining &amp; Entertainment
+						li.has-submenu <a href="#">Select a day</a>
+							ul.left-submenu
+								li.back <a href="#">Back</a>
+								li <a href="dining-entertainment-thursday.html">Thursday</a>
+								li <a href="dining-entertainment-friday.html">Friday</a>
+								li <a href="dining-entertainment-saturday.html">Saturday</a>
+								li <a href="dining-entertainment-sunday.html">Sunday</a>
+								li <a href="dining-entertainment-monday.html">Monday</a>
+								li <a href="dining-entertainment-tuesday.html">Tuesday</a>
+								li <a href="dining-entertainment-wednesday.html">Wednesday</a>
+						li
+							label Activities
+						li.has-submenu <a href="#">Select an activity</a>
+							ul.left-submenu
+								li.back <a href="#">Back</a>
+								li <a href="#">Art &amp; Culture</a>
+								li <a href="activities-outdoors.html">Outdoors</a>
+								li <a href="activities-aqua.html">Aqua</a>
+								li <a href="activities-beach-life.html">Beach Life</a>
+								li <a href="activities-diving.html">Diving</a>
+								li <a href="activities-boating.html">Boating</a>
+								li <a href="activities-sports.html">Sports</a>
+								li <a href="activities-upcoming.html">Upcoming</a>
+								li <a href="activities-ship-ahoy.html">Ship Ahoy</a>
+								li <a href="activities-kids-corner.html">Kids Corner</a>
+						li
+							label Happy Hours
+						li.has-submenu <a href="#">Select a day</a>
+							ul.left-submenu
+								li.back <a href="#">Back</a>
+								li <a href="happy-hours.html#thursday">Thursday</a>
+								li <a href="happy-hours.html#friday">Friday</a>
+								li <a href="happy-hours.html#saturday">Saturday</a>
+								li <a href="happy-hours.html#sunday">Sunday</a>
+								li <a href="happy-hours.html#monday">Monday</a>
+								li <a href="happy-hours.html#tuesday">Tuesday</a>
+								li <a href="happy-hours.html#wednesday">Wednesday</a>
+				a.exit-off-canvas
+				// end off canvas actual menu. The wrapper does not end until much further down the page.
+				// top bar
+				div.contain-to-grid.fixed
+					+topbar(pageTitle)
+					// end top bar
+				// stay in the contained grid
+				// page header w/ logo k-pasa
+				header.contain-to-grid.large-12.small-centered.callout.row.full-width
+					h1.panel.text-center
+						strong Welcome to <img src="assets/img/logos/logo-k-pasa-facebook-150.png" height="150" width="222">
+					h2.panel.text-center Weekly Dining &amp; Entertainment Guide Curaçao
+					h4.panel.text-center Week 45, 2016 • Thursday November 10 - Wednesday November 16
+					//clip of the week
+					+clipoftheweek
+
+				// end page header
+
+				// Magellan Navigation
+				+magellan(pageTitle)
+
+				// begin content section
+
+				+layout(pageTitle)
+				//- uncomment the following include if it's the movies/index page.
+				include jade/mixins/films.jade
+
+				// In this section (the content section)
+				// please add the contents in the div above
+				// be a proper HTML citizen
+				// so be mindful of indentation.
+				// Thanks,
+				// df/
+				// end content section
+				// begin footer
+				+footer
+				// end footer
+			// end off canvas nav inner wrap.
+		// end off canvas nav.
+		// more scripts
+		script(src="bower_components/jquery/dist/jquery.min.js")
+		script(src="bower_components/fastclick/lib/fastclick.js")
+		script(src="bower_components/foundation/js/foundation.min.js")
+		script(src="js/app.js")
+		script(src="js/ptengine/ptengine.js")
+		script $(document).foundation();
+		script $(document).foundation('interchange', 'reflow');
+		// end of scripts
