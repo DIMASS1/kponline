@@ -675,46 +675,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/the-magnificent-seven-300px.jpg": {
-		"ft": 16384,
-		"iS": 84385,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/the-magnificent-seven-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/movie-posters\/the-purge-3-election-year-poster-300px.jpg": {
-		"ft": 16384,
-		"iS": 71480,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/the-purge-3-election-year-poster-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/movie-posters\/trolls-300px.jpg": {
-		"ft": 16384,
-		"iS": 100159,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/trolls-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/movie-posters\/war-dogs-300px.jpg": {
-		"ft": 16384,
-		"iS": 61766,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/war-dogs-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/movie-posters\/when-the-bough-breaks-300px.jpg": {
-		"ft": 16384,
-		"iS": 47627,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/when-the-bough-breaks-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/img\/movie-ratings\/kijkwijzer-al.png": {
 		"ft": 32768,
 		"iS": 15826,
@@ -7929,7 +7889,7 @@
 	"\/jade\/mixins\/films.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/jade\/mixins\/films.html",
 		"oF": 0,
 		"oS": 0
@@ -8083,12 +8043,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/page-template.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-template.html",
-		"oF": 0
 		},
 	"\/page-template.jade": {
 		"cOD": 1,
