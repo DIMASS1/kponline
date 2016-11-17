@@ -7929,7 +7929,7 @@
 	"\/jade\/mixins\/films.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/jade\/mixins\/films.html",
 		"oF": 0,
 		"oS": 0
@@ -8083,6 +8083,12 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/page-template.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-template.html",
+		"oF": 0
 		},
 	"\/page-template.jade": {
 		"cOD": 1,
