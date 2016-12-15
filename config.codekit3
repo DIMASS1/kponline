@@ -7,7 +7,7 @@
 		"uuidString": "FD748DBF-7E63-4D0E-85E6-4D8B6D4AA135"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -317,7 +317,7 @@
 		},
 	"\/assets\/img\/movie-posters\/allied_01-300px.jpg": {
 		"ft": 16384,
-		"iS": 88669,
+		"iS": 94857,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/allied_01-300px.jpg",
 		"oF": 0,
@@ -325,7 +325,7 @@
 		},
 	"\/assets\/img\/movie-posters\/almost-christmas_02-300px.jpg": {
 		"ft": 16384,
-		"iS": 121945,
+		"iS": 132121,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/almost-christmas_02-300px.jpg",
 		"oF": 0,
@@ -333,7 +333,7 @@
 		},
 	"\/assets\/img\/movie-posters\/american_pastoral_03-300px.jpg": {
 		"ft": 16384,
-		"iS": 66378,
+		"iS": 70523,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/american_pastoral_03-300px.jpg",
 		"oF": 0,
@@ -341,7 +341,7 @@
 		},
 	"\/assets\/img\/movie-posters\/arrival_04-300px.jpg": {
 		"ft": 16384,
-		"iS": 65393,
+		"iS": 70184,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/arrival_04-300px.jpg",
 		"oF": 0,
@@ -349,7 +349,7 @@
 		},
 	"\/assets\/img\/movie-posters\/bad-santa-2_05-300px.jpg": {
 		"ft": 16384,
-		"iS": 80316,
+		"iS": 84129,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/bad-santa-2_05-300px.jpg",
 		"oF": 0,
@@ -357,7 +357,7 @@
 		},
 	"\/assets\/img\/movie-posters\/boo-a-madea-halloween_06-300px.jpg": {
 		"ft": 16384,
-		"iS": 79979,
+		"iS": 83826,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/boo-a-madea-halloween_06-300px.jpg",
 		"oF": 0,
@@ -365,7 +365,7 @@
 		},
 	"\/assets\/img\/movie-posters\/de-club-van-sinterklaas-geblaf-op-de-pakjesboot_07-300px.jpg": {
 		"ft": 16384,
-		"iS": 102113,
+		"iS": 109993,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/de-club-van-sinterklaas-geblaf-op-de-pakjesboot_07-300px.jpg",
 		"oF": 0,
@@ -373,7 +373,7 @@
 		},
 	"\/assets\/img\/movie-posters\/doctor-dr-strange_08-300px.jpg": {
 		"ft": 16384,
-		"iS": 118879,
+		"iS": 128967,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/doctor-dr-strange_08-300px.jpg",
 		"oF": 0,
@@ -381,7 +381,7 @@
 		},
 	"\/assets\/img\/movie-posters\/dog-eat-dog-_09-300px.jpg": {
 		"ft": 16384,
-		"iS": 93689,
+		"iS": 101696,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/dog-eat-dog-_09-300px.jpg",
 		"oF": 0,
@@ -389,7 +389,7 @@
 		},
 	"\/assets\/img\/movie-posters\/dog-eat-dog_10-300px.jpg": {
 		"ft": 16384,
-		"iS": 94941,
+		"iS": 101876,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/dog-eat-dog_10-300px.jpg",
 		"oF": 0,
@@ -397,7 +397,7 @@
 		},
 	"\/assets\/img\/movie-posters\/fantastic-beasts_11-300px.jpg": {
 		"ft": 16384,
-		"iS": 80006,
+		"iS": 86343,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/fantastic-beasts_11-300px.jpg",
 		"oF": 0,
@@ -405,7 +405,7 @@
 		},
 	"\/assets\/img\/movie-posters\/hacksaw-ridge-poster_13-300px.jpg": {
 		"ft": 16384,
-		"iS": 31293,
+		"iS": 450836,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/hacksaw-ridge-poster_13-300px.jpg",
 		"oF": 0,
@@ -413,7 +413,7 @@
 		},
 	"\/assets\/img\/movie-posters\/hacksaw-ridge_12-300px.jpg": {
 		"ft": 16384,
-		"iS": 77181,
+		"iS": 81999,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/hacksaw-ridge_12-300px.jpg",
 		"oF": 0,
@@ -421,7 +421,7 @@
 		},
 	"\/assets\/img\/movie-posters\/incarnate-movie-poster_14-300px.jpg": {
 		"ft": 16384,
-		"iS": 59932,
+		"iS": 62580,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/incarnate-movie-poster_14-300px.jpg",
 		"oF": 0,
@@ -429,57 +429,105 @@
 		},
 	"\/assets\/img\/movie-posters\/jack-reacher--never-go-back_15-300px.jpg": {
 		"ft": 16384,
-		"iS": 118065,
+		"iS": 125905,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/jack-reacher--never-go-back_15-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/lion_16-300px.jpg": {
+	"\/assets\/img\/movie-posters\/la-la-land_16-300px.jpg": {
 		"ft": 16384,
-		"iS": 67890,
+		"iS": 66574,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/lion_16-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/la-la-land_16-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/loving_17-300px.jpg": {
+	"\/assets\/img\/movie-posters\/lion_17-300px.jpg": {
 		"ft": 16384,
-		"iS": 77172,
+		"iS": 72577,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/loving_17-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/lion_17-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/marvel’s-doctor-strange_18-300px.jpg": {
+	"\/assets\/img\/movie-posters\/loving_18-300px.jpg": {
 		"ft": 16384,
-		"iS": 128128,
+		"iS": 83076,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/marvel’s-doctor-strange_18-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/loving_18-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/moana_19-300px.jpg": {
+	"\/assets\/img\/movie-posters\/marvel’s-doctor-strange_19-300px.jpg": {
 		"ft": 16384,
-		"iS": 82434,
+		"iS": 138940,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/moana_19-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/marvel’s-doctor-strange_19-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/sully_20-300px.jpg": {
+	"\/assets\/img\/movie-posters\/mees-kees-langs-de-lijn_20-300px.jpg": {
 		"ft": 16384,
-		"iS": 48263,
+		"iS": 114084,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/sully_20-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/mees-kees-langs-de-lijn_20-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/trolls_21-300px.jpg": {
+	"\/assets\/img\/movie-posters\/moana_21-300px.jpg": {
 		"ft": 16384,
-		"iS": 41912,
+		"iS": 90986,
 		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/trolls_21-300px.jpg",
+		"oAP": "\/assets\/img\/movie-posters\/moana_21-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/nocturnal-animals_22-300px.jpg": {
+		"ft": 16384,
+		"iS": 84586,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/nocturnal-animals_22-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/office-christmas-party_23-300px.jpg": {
+		"ft": 16384,
+		"iS": 102785,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/office-christmas-party_23-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/rogue-one_24-300px.jpg": {
+		"ft": 16384,
+		"iS": 63096,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/rogue-one_24-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/sully_25-300px.jpg": {
+		"ft": 16384,
+		"iS": 52089,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/sully_25-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/the-bounce-back_26-300px.jpg": {
+		"ft": 16384,
+		"iS": 88315,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/the-bounce-back_26-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/trolls_27-300px.jpg": {
+		"ft": 16384,
+		"iS": 3239850,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/trolls_27-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -7697,7 +7745,7 @@
 	"\/jade\/mixins\/films.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/jade\/mixins\/films.html",
 		"oF": 0,
 		"oS": 0
@@ -8528,6 +8576,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -8691,6 +8743,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -9056,6 +9112,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -9287,6 +9347,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -10120,6 +10184,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
