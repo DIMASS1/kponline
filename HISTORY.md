@@ -16,3 +16,7 @@ Front end frameworks considered are
 - Material UI
 - Milligram
 - Susy
+
+## Timeframe
+
+Finished by end of January 2017.
