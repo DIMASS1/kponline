@@ -4,11 +4,6 @@
 
 Change the framework. F5 is outdated.
 
-<<<<<<< HEAD
-2017-v1
-=============
-Possible candidates are foundation 6, bootstrap 4, google material kit.
-=======
 # Frameworks
 
 Front end frameworks considered are
@@ -20,4 +15,3 @@ Front end frameworks considered are
 - Material UI
 - Milligram
 - Susy
->>>>>>> 2017-v1
