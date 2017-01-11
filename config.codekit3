@@ -15,63 +15,69 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/activities-aqua.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-aqua.html",
 		"oF": 0
 		},
 	"\/activities-artnculture.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-artnculture.html",
 		"oF": 0
 		},
 	"\/activities-beach-life.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-beach-life.html",
 		"oF": 0
 		},
 	"\/activities-boating.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-boating.html",
 		"oF": 0
 		},
 	"\/activities-diving.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-diving.html",
 		"oF": 0
 		},
 	"\/activities-kids-corner.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-kids-corner.html",
 		"oF": 0
 		},
 	"\/activities-outdoors.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-outdoors.html",
 		"oF": 0
 		},
 	"\/activities-ship-ahoy.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-ship-ahoy.html",
 		"oF": 0
 		},
 	"\/activities-sports.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-sports.html",
 		"oF": 0
 		},
 	"\/activities-upcoming.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/activities-upcoming.html",
 		"oF": 0
 		},
@@ -93,7 +99,7 @@
 		},
 	"\/assets\/img\/ipad-screenshot.png": {
 		"ft": 32768,
-		"iS": 4050020,
+		"iS": 4050024,
 		"oA": 0,
 		"oAP": "\/assets\/img\/ipad-screenshot.png",
 		"oF": 0,
@@ -799,7 +805,7 @@
 	"\/assets\/script\/min\/FormEmailer3.65-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/script\/min\/min\/FormEmailer3.65-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -826,7 +832,7 @@
 	"\/assets\/scripts\/min\/FormEmailer3.65-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/scripts\/min\/min\/FormEmailer3.65-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -837,7 +843,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/scripts\/novacancy.js-master\/css\/demo-min.css",
 		"oF": 0,
 		"oS": 0
@@ -847,14 +853,14 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/scripts\/novacancy.js-master\/css\/html5reset-1.6.1-min.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/assets\/scripts\/novacancy.js-master\/demo.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/scripts\/novacancy.js-master\/demo.html",
 		"oF": 0
 		},
@@ -955,7 +961,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/Hover\/css\/demo-page-min.css",
 		"oF": 0,
 		"oS": 0
@@ -965,7 +971,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/Hover\/css\/hover-min-min.css",
 		"oF": 0,
 		"oS": 0
@@ -975,7 +981,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/Hover\/css\/hover-min.css",
 		"oF": 0,
 		"oS": 0
@@ -1025,7 +1031,7 @@
 		},
 	"\/assets\/stylesheets\/Hover\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/Hover\/index.html",
 		"oF": 0
 		},
@@ -4467,7 +4473,7 @@
 		},
 	"\/assets\/txt\/vacatures.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/txt\/vacatures.html",
 		"oF": 0
 		},
@@ -4503,7 +4509,7 @@
 		},
 	"\/bak-2.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/bak-2.html",
 		"oF": 0
 		},
@@ -4898,7 +4904,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation\/scss\/foundation\/_settings.scss",
 		"oF": 0,
 		"oS": 0,
@@ -5996,7 +6002,7 @@
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
 		"oF": 0,
 		"sC": 1,
@@ -7666,7 +7672,7 @@
 		},
 	"\/contact-us.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/contact-us.html",
 		"oF": 0
 		},
@@ -7675,57 +7681,63 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/dining-entertainment-friday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-friday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-monday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-monday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-saturday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-saturday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-sunday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-sunday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-thursday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-thursday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-tuesday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-tuesday.html",
 		"oF": 0
 		},
 	"\/dining-entertainment-wednesday.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dining-entertainment-wednesday.html",
 		"oF": 0
 		},
 	"\/happy-hours.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/happy-hours.html",
+		"oF": 0
+		},
+	"\/HISTORY.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/HISTORY.html",
 		"oF": 0
 		},
 	"\/HISTORY.md": {
@@ -7754,25 +7766,25 @@
 		},
 	"\/index-bak-2.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index-bak-2.html",
 		"oF": 0
 		},
 	"\/index-bak.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index-bak.html",
 		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/jade\/mixins\/cinemas.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/cinemas.html",
 		"oF": 0
 		},
@@ -7794,7 +7806,7 @@
 		},
 	"\/jade\/mixins\/films.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/films.html",
 		"oF": 0
 		},
@@ -7808,7 +7820,7 @@
 		},
 	"\/jade\/mixins\/footer.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/footer.html",
 		"oF": 0
 		},
@@ -7822,7 +7834,7 @@
 		},
 	"\/jade\/mixins\/githubstats.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/githubstats.html",
 		"oF": 0
 		},
@@ -7836,7 +7848,7 @@
 		},
 	"\/jade\/mixins\/header.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/header.html",
 		"oF": 0
 		},
@@ -7850,7 +7862,7 @@
 		},
 	"\/jade\/mixins\/layout.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/layout.html",
 		"oF": 0
 		},
@@ -7864,7 +7876,7 @@
 		},
 	"\/jade\/mixins\/magellan.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/magellan.html",
 		"oF": 0
 		},
@@ -7894,21 +7906,21 @@
 		},
 	"\/jade\/mixins\/topbar.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jade\/mixins\/topbar.html",
 		"oF": 0
 		},
 	"\/jade\/mixins\/topbar.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/jade\/mixins\/topbar.html",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0
 		},
 	"\/jobs.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/jobs.html",
 		"oF": 0
 		},
@@ -7932,19 +7944,19 @@
 		},
 	"\/movies-list.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/movies-list.html",
 		"oF": 0
 		},
 	"\/movies-n-cinemas.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/movies-n-cinemas.html",
 		"oF": 0
 		},
 	"\/newsletter.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/newsletter.html",
 		"oF": 0
 		},
@@ -7972,7 +7984,7 @@
 		},
 	"\/README.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/README.html",
 		"oF": 0
 		},
@@ -8131,8 +8143,8 @@
 		"uL": 1
 		},
 	"\/scss\/app.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -8151,7 +8163,7 @@
 		},
 	"\/template.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/template.html",
 		"oF": 0
 		},
@@ -8175,7 +8187,7 @@
 		},
 	"\/zurb-demo.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/zurb-demo.html",
 		"oF": 0
 		}
