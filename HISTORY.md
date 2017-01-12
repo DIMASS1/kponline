@@ -20,3 +20,7 @@ Front end frameworks considered are
 ## Timeframe
 
 Finished by end of January 2017.
+
+## Credits
+
+By David Felix. All rights reserved.
