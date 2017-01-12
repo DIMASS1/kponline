@@ -345,14 +345,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/movie-posters\/arrival-300px.jpg": {
-		"ft": 16384,
-		"iS": 34578,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/arrival-300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/img\/movie-posters\/assassin's-creed-300px.jpg": {
 		"ft": 16384,
 		"iS": 38096,
@@ -406,14 +398,6 @@
 		"iS": 52388,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/dog-eat-dog--300px.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/movie-posters\/dog-eat-dog-300px.jpg": {
-		"ft": 16384,
-		"iS": 60262,
-		"oA": 0,
-		"oAP": "\/assets\/img\/movie-posters\/dog-eat-dog-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -513,6 +497,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/movie-posters\/monster-trucks-300px.jpg": {
+		"ft": 16384,
+		"iS": 51335,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/monster-trucks-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/movie-posters\/nocturnal-animals-300px.jpg": {
 		"ft": 16384,
 		"iS": 46161,
@@ -566,6 +558,14 @@
 		"iS": 46276,
 		"oA": 0,
 		"oAP": "\/assets\/img\/movie-posters\/the-bounce-back-300px.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/movie-posters\/the-bye-bye-man-300px.jpg": {
+		"ft": 16384,
+		"iS": 51366,
+		"oA": 0,
+		"oAP": "\/assets\/img\/movie-posters\/the-bye-bye-man-300px.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -7885,7 +7885,7 @@
 	"\/jade\/mixins\/films.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/jade\/mixins\/films.html",
 		"oF": 0,
 		"oS": 0
